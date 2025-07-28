@@ -28,5 +28,23 @@ Return type of variables in JavaScript
        Arrays  =>  object
        Function  =>  function
        Object  =>  object
+*/
+
+//*********Memory Management in JS******
+/*
+There are 2 types of memories:
+    1. stack type
+        - used in all primitive datatypes
+        - you get a copy of whatever stored in stack memory
+    2. heap type
+        - used in all non-primitive datatypes
+        - we get a reference of original value stored in heap memory
 
 */
+// Example:
+
+let myYoutubename = "Devaraj"
+
+let anothername = myYoutubename
+
+console.log(anothername)
